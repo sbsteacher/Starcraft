@@ -13,4 +13,9 @@ public class Marine extends AttackUnit implements Cureable {
 	public String toString() {
 		return "(마린) " + super.toString();
 	}
+	
+	@Override
+	public void rest() {
+		System.out.println("마린린린!!ㅁ");		
+	}
 }

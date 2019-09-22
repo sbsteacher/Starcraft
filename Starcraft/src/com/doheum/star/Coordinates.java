@@ -4,4 +4,12 @@ package com.doheum.star;
 public class Coordinates {
 	int x;
 	int y;
+	
+	public Coordinates(int x, int y) {
+		super();
+		this.x = x;
+		this.y = y;
+	}
+	
+	
 }

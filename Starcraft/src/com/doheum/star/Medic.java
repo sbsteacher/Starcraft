@@ -34,6 +34,11 @@ public class Medic extends Unit implements Cureable {
 	public String toString() {
 		return "(메딕) " + super.toString();
 	}
+	
+	@Override
+	public void rest() {
+		System.out.println("메딕딕딕!");		
+	}
 }
 
 

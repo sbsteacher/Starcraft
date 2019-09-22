@@ -13,4 +13,9 @@ public class FireBat extends AttackUnit implements Cureable {
 	public String toString() {
 		return "(파이어뱃) " + super.toString();
 	}
+
+	@Override
+	public void rest() {
+		System.out.println("ㅍㅍㅍㅍ");		
+	}
 }
