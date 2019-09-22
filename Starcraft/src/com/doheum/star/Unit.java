@@ -1,8 +1,8 @@
 package com.doheum.star;
 
 public class Unit {
+	int max_hp;
 	int hp; 
-	int powerOfAttack;
 	int speedMoving;
 	int x;
 	int y;
@@ -11,11 +11,6 @@ public class Unit {
 	void move(int x, int y) {
 		this.x = x;
 		this.y = y;
-	}
-	
-	void attack(Unit enemy) {
-		//enemy.hp = enemy.hp - this.powerOfAttack;
-		enemy.hp -= this.powerOfAttack;
 	}
 	
 	@Override
