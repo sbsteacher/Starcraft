@@ -1,6 +1,6 @@
 package com.doheum.star;
 
-public class FireBat extends AttackUnit {
+public class FireBat extends AttackUnit implements Cureable {
 	
 	public FireBat() {
 		this.max_hp = 50;

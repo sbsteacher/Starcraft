@@ -1,6 +1,6 @@
 package com.doheum.star;
 
-public class Marine extends AttackUnit {
+public class Marine extends AttackUnit implements Cureable {
 	
 	public Marine() {
 		max_hp = 30;
