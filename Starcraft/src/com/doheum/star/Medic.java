@@ -9,6 +9,10 @@ public class Medic extends Unit {
 	}
 	
 	void rescure(Unit unit) {
-		
+		if(unit.hp < unit.max_hp) {
+			while(unit.hp < unit.max_hp) {
+				unit.hp++;
+			}
+		}
 	}
 }
