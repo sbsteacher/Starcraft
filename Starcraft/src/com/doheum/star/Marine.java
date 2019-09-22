@@ -8,4 +8,9 @@ public class Marine extends AttackUnit implements Cureable {
 		powerOfAttack = 5;
 		speedMoving = 5;
 	}
+	
+	@Override
+	public String toString() {
+		return "(마린) " + super.toString();
+	}
 }

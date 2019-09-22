@@ -8,4 +8,9 @@ public class FireBat extends AttackUnit implements Cureable {
 		this.powerOfAttack = 8;
 		this.speedMoving = 5;
 	}	
+	
+	@Override
+	public String toString() {
+		return "(파이어뱃) " + super.toString();
+	}
 }

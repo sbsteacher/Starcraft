@@ -7,4 +7,6 @@ public class AttackUnit extends Unit {
 		//enemy.hp = enemy.hp - this.powerOfAttack;
 		enemy.hp -= this.powerOfAttack;
 	}
+	
+	
 }
